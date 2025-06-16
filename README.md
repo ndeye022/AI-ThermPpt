@@ -8,3 +8,5 @@ To install the necessary packages run the following command:
 ```bash
 pip install -r requirements.txt
 ```
+
+# AI-ThermPpt
