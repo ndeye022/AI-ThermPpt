@@ -1,7 +1,10 @@
-matplotlib
-mordred
-rdkit
+streamlit
 joblib
 scikit-learn
-plotly.express
-streamlit_ketcher
+plotly
+pandas
+numpy
+matplotlib
+rdkit
+mordred
+streamlit-ketcher
