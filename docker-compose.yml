@@ -1,0 +1,18 @@
+﻿services:
+  thermodynamique:
+    build: ./example
+    container_name: app_thermodynamique
+    restart: always
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./example:/app
+
+  dashboard:
+    image: nginx:alpine
+    container_name: app_dashboard
+    restart: always
+    ports:
+      - "8502:80"
+    volumes:
+      - ./dashboard:/usr/share/nginx/html:ro
